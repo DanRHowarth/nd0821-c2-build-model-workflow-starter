@@ -34,7 +34,6 @@ def go(args):
     logger.info(f"Saving cleaned data as {args.output_artifact} to W&B")
     df.to_csv(args.output_artifact, index=False)
 
-
     artifact = wandb.Artifact(
         args.output_artifact,
         type=args.output_type,

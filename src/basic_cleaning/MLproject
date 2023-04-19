@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name and version of input artifact to be cleaned in format of name:version
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Specify the name of the artifact created as a result of this step and uploaded to W&B
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Specify the type of artifact being created
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Provide a description of the artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: Set a minimum price to filter the data by
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Set a maximum price to filter the data by
         type: string
 
 
