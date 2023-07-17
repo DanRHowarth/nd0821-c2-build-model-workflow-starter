@@ -1,6 +1,5 @@
 # Dan Howarth Project Submission 
 
-* Guthub repo: https://github.com/DanRHowarth/nd0821-c2-build-model-workflow-starter
 * W&B project: https://wandb.ai/dan-h/nyc_airbnb 
 
 
